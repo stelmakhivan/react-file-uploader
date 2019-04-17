@@ -1,0 +1,27 @@
+{
+  "name": "react-file-uploader",
+  "version": "1.0.0",
+  "description": "File uploader, using Express as back-end and React as front-end",
+  "main": "server.js",
+  "author": "Ivan Stelmakh",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "express",
+    "express-fileupload"
+  ],
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.4"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.11"
+  }
+}

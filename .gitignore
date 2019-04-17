@@ -1,0 +1,8 @@
+.vscode
+.idea
+node_modules
+.DS_Store
+.npm
+logs
+*.log
+npm-debug.log*
